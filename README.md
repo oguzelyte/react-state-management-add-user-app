@@ -2,7 +2,7 @@
 
 Task part of Udacity's React nano degree program.
 
-Requirements:
+Task requirements are to create a React app that lets us:
 
 - Add a user's first name, last name, and username.
 - When the user is added, the number of games that he/she has played defaults to 0.
