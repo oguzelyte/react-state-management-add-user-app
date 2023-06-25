@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+input[type="text"],
+button[type="submit"] {
+  padding: 10px;
+}
+
+button[type="submit"] {
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.user-details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.user-details {
+  gap: 20px;
+  display: flex;
+}
+
+.user-details .last-col button {
+  height: 100%;
+  cursor: pointer;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+#root {
+  padding: 16px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.users-list {
+  padding-top: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-block {
+  background-color: #204571;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.users-list-top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
